@@ -169,7 +169,7 @@
 .previous-work img {
     display: flexbox;
     border-radius: 2.8vw;
-    width: 36.8vw;
+    width: 37.1vw;
     padding: 1vw;
 }
 
@@ -317,7 +317,7 @@
     font-size: 1.5vw;
     line-height: 1.8vw;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 
     max-width: 45vw;
 }
@@ -334,7 +334,7 @@
     font-size: 1.5vw;
     line-height: 1.8vw;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 
     max-width: 45vw;
 }
@@ -351,7 +351,7 @@
     font-size: 1.5vw;
     line-height: 1.8vw;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 
     max-width: 45vw;
 }
@@ -403,7 +403,7 @@
     font-size: 1.5vw;
     line-height: 1.8vw;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 
 }
 
@@ -419,7 +419,7 @@
     font-size: 1.5vw;
     line-height: 1.8vw;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 
 }
 
@@ -500,8 +500,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
     .cta-button11-animation {
-        color: #000000;
-        background-color: #ffffff00;
+        color: #00000000;
+        background-color: #00000000;
         background: linear-gradient(rgb(255, 255, 255) 0 0) no-repeat;
         background-size: 0% 100%;
         animation: reveal 1.2s .1s both;
@@ -509,9 +509,8 @@
 }
 
 .cta-button10 {
-    margin-left: -11.8vw;
+    margin-left: -9vw;
     font-family: sans-serif;
-    padding: 0.5vw 2.7vw;
     font-weight: 400;
     font-size: 2vw;
     color: #000000;
