@@ -1,0 +1,594 @@
+@font-face {
+    font-family: "Italiana";
+    src: url(fonts/Italiana-Regular.ttf);
+}
+
+.body {
+    background-color: #edeced;
+    margin: 0;
+}
+
+.lamp {
+    position: absolute;
+    background-size: cover;
+    width: 100.6vw;
+    margin-top: -2vw;
+    margin-left: -1.5vw;
+    z-index: 0;
+}
+
+.headerr {
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 9vw;
+    color: white;
+    z-index: 1;
+}
+
+.viz {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-size: 8vw;
+    line-height: 7vw;
+    color: #0000;
+    background: linear-gradient(rgb(255, 255, 255) 0 0) no-repeat;
+    background-size: 0% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: reveal 1.2s .1s both;
+}
+
+.max {
+    font-family: sans-serif;
+    margin-left: 2vw;
+    max-width: 30vw;
+    text-justify: auto;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #0000;
+    background: linear-gradient(rgb(255, 255, 255) 0 0) no-repeat;
+    background-size: 0% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: reveal 1.2s .1s both;
+}
+
+.cta-button {
+    font-family: sans-serif;
+    margin-left: -11.8vw;
+    padding: 0.5vw 2.7vw;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    background-color: #00000000;
+    z-index: 2;
+    border-radius: 5vw;
+    border-width: 0;
+}
+
+.cta-button1 {
+    font-family: sans-serif;
+    margin-left: 2vw;
+    padding: 0.5vw 2.7vw;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #0000;
+    background: linear-gradient(rgb(255, 255, 255) 0 0) no-repeat;
+    background-size: 0% 100%;
+    animation: reveal 1.2s .1s both;
+    z-index: 0;
+    border-radius: 5vw;
+    border-width: 0;
+}
+
+.about-us {
+    position: absolute;
+    margin-top: 66vw;
+    margin-left: 10vw;
+    color: white;
+    z-index: 1;
+    padding-right: 45vw;
+}
+
+.nin0 {
+    border-radius: 2vw;
+    width: 33vw;
+    margin-left: 1vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .nin0-animation {
+        animation: fadeInleft 1s ease-out;
+    }
+}
+
+.about {
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    display: inline;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-size: 8vw;
+    line-height: 7vw;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .about-animation {
+        animation: fadeIn 1s ease-in-out;
+    }
+}
+
+.weare {
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 5vw;
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    text-align: justify;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .weare-animation {
+        animation: fadeIn 2s ease-in-out;
+    }
+}
+
+.previous-work {
+    position: absolute;
+    margin-top: 118vw;
+    margin-left: 9vw;
+}
+
+.previous {
+    position: absolute;
+    margin-top: 0.5vw;
+    display: inline;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-size: 8vw;
+    max-width: 5vw;
+    line-height: 7vw;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .previous-animation {
+        animation: fadeIn 1s ease-in-out;
+    }
+}
+
+.previous-work img {
+    display: flexbox;
+    border-radius: 2.8vw;
+    width: 36.8vw;
+    padding: 1vw;
+}
+
+.gallery {
+    position: absolute;
+    margin-top: 172vw;
+    margin-left: 9.5vw;
+}
+
+.gallery img {
+    display: flexbox;
+    max-width: 35vw;
+    border-radius: 2vw;
+    margin: 0.5vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work1-animation {
+        animation: fadeInleft 1s ease-in-out;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work2-animation {
+        animation: fadeInleft 1.5s ease-in-out;
+    }
+}
+
+.work3 {
+    width: 21.6vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work3-animation {
+        animation: bounce 0.4s ease-in-out;
+    }
+}
+
+.work4 {
+    width: 30.4vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work4-animation {
+        animation: bounce 0.7s ease-in-out;
+    }
+}
+
+.work5 {
+    width: 21.6vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work5-animation {
+        animation: bounce 0.8s ease-in-out;
+    }
+}
+
+.work6 {
+    width: 34.4vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work6-animation {
+        animation: bounce 0.7s ease-in-out;
+    }
+}
+
+.work7 {
+    width: 17.7vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work7-animation {
+        animation: bounce 0.9s ease-in-out;
+    }
+}
+
+.work8 {
+    width: 21.6vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .work8-animation {
+        animation: bounce 0.5s ease-in-out;
+    }
+}
+
+.product-views {
+    position: absolute;
+    margin-top: 218vw;
+    margin-left: 10vw;
+    display: inline;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.p360 {
+    margin-bottom: -0.2vw;
+
+    max-width: 50vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .p360-animation {
+        animation: fadeInleft 1s ease-out;
+    }
+}
+
+.powerful {
+    font-size: 2vw;
+    font-weight: 600;
+
+    max-width: 45vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .powerful-animation {
+        animation: fadeInleft 1s ease-out;
+    }
+}
+
+#microphone {
+    width: 27vw;
+    position: absolute;
+    align-items: right;
+    margin-left: 55vw;
+    margin-top: -9vw;
+}
+
+.part1 {
+    margin-top: 3vw;
+    text-align: justify;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    font-family: sans-serif;
+    font-weight: 200;
+
+    max-width: 45vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .part1-animation {
+        animation: fadeIn 2s ease-in-out;
+    }
+}
+
+.part2 {
+    text-align: justify;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    font-family: sans-serif;
+    font-weight: 200;
+
+    max-width: 45vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .part2-animation {
+        animation: fadeIn 3s ease-in-out;
+    }
+}
+
+.part3 {
+    text-align: justify;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    font-family: sans-serif;
+    font-weight: 200;
+
+    max-width: 45vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .part3-animation {
+        animation: fadeIn 4s ease-in-out;
+    }
+}
+
+.experience {
+    position: absolute;
+    margin-top: 267vw;
+    margin-left: 45vw;
+    display: inline;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    max-width: 40vw;
+    line-height: 3vw;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .exp-animation {
+        animation: fadeInleft 1s ease-out;
+    }
+}
+
+.air {
+    position: absolute;
+    margin-left: -35vw;
+    margin-top: -10vw;
+    width: 30vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .air-animation {
+        animation: fadeInleft 2.5s ease-out;
+    }
+}
+
+.part11 {
+    text-align: justify;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .part11-animation {
+        animation: fadeIn 2s ease-in-out;
+    }
+}
+
+.part12 {
+    text-align: justify;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .part12-animation {
+        animation: fadeIn 2s ease-in-out;
+    }
+}
+
+.contact {
+    position: absolute;
+    margin-top: 305vw;
+    margin-left: -0.5vw;
+    display: inline;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    z-index: 1;
+}
+
+.get {
+    margin-left: 10vw;
+    font-size: 8vw;
+    width: 30vw;
+    line-height: 7vw;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .get-animation {
+        animation: fadeInleft 1.5s ease-in-out;
+    }
+}
+
+#mic {
+    position: absolute;
+    width: 43.8vw;
+    margin-left: 55.8vw;
+    margin-top: -27.3vw;
+}
+
+.part21 {
+    margin-left: 10vw;
+    margin-bottom: 3vw;
+    width: 30vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+    text-align: justify;
+    padding-right: 59.1vw;
+    font-family: sans-serif;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .part21-animation {
+        color: #00000000;
+        background: linear-gradient(rgb(255, 255, 255) 0 0) no-repeat;
+        background-size: 0% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: reveal 2s .1s both;
+    }
+}
+
+.cta-button11 {
+    margin-left: 10vw;
+    font-family: sans-serif;
+    padding: 0.5vw 2.7vw;
+    font-weight: 400;
+    font-size: 2vw;
+    z-index: 2;
+    border-radius: 5vw;
+    border-width: 0;
+    color: #0000;
+    z-index: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .cta-button11-animation {
+        color: #000000;
+        background-color: #ffffff00;
+        background: linear-gradient(rgb(255, 255, 255) 0 0) no-repeat;
+        background-size: 0% 100%;
+        animation: reveal 1.2s .1s both;
+    }
+}
+
+.cta-button10 {
+    margin-left: -11.8vw;
+    font-family: sans-serif;
+    padding: 0.5vw 2.7vw;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #000000;
+    z-index: 0;
+    border-radius: 5vw;
+    border-width: 0;
+}
+
+#mail{
+    text-decoration: none;
+}
+
+.part23 {
+    text-decoration: none;
+    font-size: 1vw;
+    margin-left: 10vw;
+    margin-top: 13vw;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .part23-animation {
+        color: #00000000;
+        background: linear-gradient(white 0 0) no-repeat;
+        background-size: 0% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: reveal 5s .1s both;
+    }
+}
+
+#whatsapp {
+    position: absolute;
+    width: 2vw;
+    margin-left: 38vw;
+    margin-top: -2.7vw;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInleft {
+    from {
+        opacity: 0;
+        transform: translatex(-3vw);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+@keyframes reveal {
+    to {
+        background-size: 100% 100%
+    }
+}
+
+@keyframes bounce {
+    1% {
+        transform: scale(0.1);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
