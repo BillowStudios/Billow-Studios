@@ -54,8 +54,9 @@
 }
 
 .cta-button {
+    position: absolute;
     font-family: sans-serif;
-    margin-left: -11.8vw;
+    margin-left: 2vw;
     padding: 0.5vw 2.7vw;
     font-weight: 400;
     font-size: 2vw;
@@ -67,6 +68,7 @@
 }
 
 .cta-button1 {
+    position: absolute;
     font-family: sans-serif;
     margin-left: 2vw;
     padding: 0.5vw 2.7vw;
@@ -486,6 +488,8 @@
 }
 
 .cta-button11 {
+    position: absolute;
+    margin-top: -11vw;
     margin-left: 10vw;
     font-family: sans-serif;
     padding: 0.5vw 2.7vw;
@@ -509,17 +513,19 @@
 }
 
 .cta-button10 {
-    margin-left: -9vw;
+    position: absolute;
+    margin-left: 12.6vw;
+    margin-top: -10.8vw;
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 2.1vw;
     color: #000000;
     z-index: 0;
     border-radius: 5vw;
     border-width: 0;
 }
 
-#mail{
+#mail {
     text-decoration: none;
 }
 
@@ -527,7 +533,7 @@
     text-decoration: none;
     font-size: 1vw;
     margin-left: 10vw;
-    margin-top: 13vw;
+    margin-top: 19.25vw;
     font-family: sans-serif;
     text-decoration: none;
 }
